@@ -11,7 +11,7 @@ class Penguin(
     // override하기 위해서는 Animal에서 open 키워드가 필요
     override val legCount: Int
      get() = super.legCount + this.wingCount
-    
+
     override fun act() {
         super<Swimmable>.act()
         super<Flyable>.act()
