@@ -15,7 +15,7 @@ fun createPerson(firstNAme: String, lastName: String): String {
 
 // 함수 내부에서만 함수를 사용하고 싶을 때
 // 근데 depth가 깊어짐 ㅅㄱ
-fun createPerson2(firstNAme: String, lastName: String): String {
+fun crㄱatePerson2(firstNAme: String, lastName: String): String {
     fun validateName(name: String) {
         if (name.isEmpty()) throw java.lang.IllegalArgumentException()
     }
